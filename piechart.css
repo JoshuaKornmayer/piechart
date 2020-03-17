@@ -1,0 +1,86 @@
+
+
+.pie{
+	background-color: black;
+	width: 200px;
+	height: 200px;
+	margin-bottom: 2px;
+	display: inline-block;
+	margin: -5px;
+	
+}
+
+.red{
+	border-top-left-radius: 180%;
+	background-color: red;
+}
+
+.yellow{
+	border-top-right-radius: 180%;
+	background-color: yellow;
+}
+
+.blue{
+	border-bottom-left-radius: 180%;
+	background-color: blue;
+}
+
+.green{
+	border-bottom-right-radius: 180%;
+	background-color: green;
+}
+
+p{
+	text-align: center;
+	margin-top: 50%;
+}
+
+/*
+.pie {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  clip: rect(0px, 150px, 300px, 0px);
+}
+
+.hold {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  clip: rect(0px, 300px, 300px, 150px);
+}
+
+#pieSlice1 .pie {
+  background-color: yellow;
+  transform:rotate(90deg);
+}
+
+#pieSlice2 {
+  transform: rotate(90deg);
+}
+
+#pieSlice2 .pie {
+  background-color: green;
+  transform: rotate(90deg);
+}
+
+#pieSlice3 {
+  transform: rotate(180deg);
+}
+
+#pieSlice3 .pie {
+  background-color: blue;
+  transform: rotate(90deg);
+}
+
+#pieSlice4 {
+  transform: rotate(270deg);
+}
+
+#pieSlice4 .pie {
+  background-color: red;
+  transform: rotate(90deg)
+}
+*/
